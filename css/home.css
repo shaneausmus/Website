@@ -45,9 +45,16 @@ li {
     display: flex;
 }
 
-.articles-to-sort {
+.articles_to_sort {
     list-style-type: disc;
+    font-size: 16px;
 }
+
+.articles_to_sort_desc {
+    list-style-type: none;
+    font-size: 16px;
+}
+
 
 .article-content-2020 {
     display: flex;
@@ -123,7 +130,7 @@ a {
 
 .intro {
     color: #234099;
-    padding-bottom: 2.5%
+    padding-bottom: 2.5%;
 }
 
 .date_tag {
